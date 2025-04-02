@@ -1,0 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+        @font-face {
+        font-family: 'SF Mono';
+        src: url('path/to/SFMono-Regular.otf') format('opentype');
+        } 
+
+body {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 3vh;
+    text-align:start ;
+    background-color: #a19c9c;
+    margin: 2rem;
+    background: linear-gradient(to bottom, #adddd5, #84ffea );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, p {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 6vh;
+    text-align: start ;
+    background-color: #a19c9c;
+    margin: 2rem;
+    background: linear-gradient(to bottom, #adddd5, #84ffea );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color:rgb(15, 131, 92 0.5) ;
+}

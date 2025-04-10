@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: #333;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    background-color: #c7bfbf;
+}
+
+.section1 h1 {
+    font-size: 2.5rem;
+    color: #020202;
+}
+
+.section1 p {
+    font-size: 1.2rem;
+    color: #020202;
+}
+
+.section1 button {
+    padding: 10px 20px;
+    background-color: #d67923;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    background-color: #ece2e2;
+}
+
+.section2 h2 {
+    font-size: 2rem;
+    color: #020202;
+}
+.section2 p {
+    font-size: 1.2rem;
+    color: #020202;
+}
+.section2 button {
+    padding: 10px 20px;
+    background-color: #d67923;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    background-color: #c7bfbf;
+}
+.section3 h2 {
+    font-size: 2rem;
+    color: #020202;
+    margin-bottom: 20px;
+}
+.section3 p {
+    font-size: 1.2rem;
+    color: #020202;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 150px;
+    height: 180px;
+    background-color: #ece2e2;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    font-size: 1.2rem;
+    color: #020202;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.card h3 {
+    font-size: 1.5rem;
+    color: #020202;
+}
+.card p {
+    font-size: 1rem;
+    color: #020202;
+}
+.card button {
+    padding: 5px 10px;
+    background-color: #d67923;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    background-color:#ece2e2;
+}
+.section4 h2 {
+    font-size: 2rem;
+    color: #020202;
+}
+.section4 p {
+    font-size: 1.2rem;
+    color: #020202;
+}
+.section4 button {
+    padding: 10px 20px;
+    background-color: #d67923;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.section4 button:hover {
+    background-color: #b65c1f;
+}
+.section4 button:active {
+    background-color: #8b4a1a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    font-size: 1.2rem;
+    color: #020202;
+}

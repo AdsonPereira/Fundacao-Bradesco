@@ -10,25 +10,25 @@
     <header>
         <nav>
             <ul class="menu">
-                <li>Inicio</li>
-                <li>Sobre nós</li>
-                <li>Serviços</li>
-                <li>Contato</li>
+                <li><a href="#section1"></a> Inicio</li>
+                <li><a href="#section2"></a>Sobre nós</li>
+                <li><a href="#section3"></a>Serviços</li>
+                <li><a href="#section4"></a>Contato</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="section1">
+        <section id="section1">
             <h1>Bem-vindo ao nosso site!</h1>
             <p>Descubra nossos serviços e entre em contato.</p>
             <button>Conheça nossos serviços</button>
         </section>
-        <section class="section2">
+        <section id="section2">
             <h2>Sobre nós</h2>
             <p>Somos uma empresa dedicada a oferecer os melhores serviços.</p>
             <button>Saiba mais</button>
         </section>
-        <section class="section3">
+        <section id="section3">
             <h2>Serviços</h2>
             <p>Oferecemos uma variedade de serviços para atender suas necessidades.</p>
             <div class="cards">
@@ -50,7 +50,7 @@
             </div>
         </section>
 
-        <section class="section4">
+        <section id="section4">
             <h2>Contato</h2>
             <p>Entre em contato conosco para mais informações.</p>
             <form action="">
@@ -59,11 +59,20 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" required cols="70" rows="7" ></textarea>
+                <textarea id="message" name="message" required cols="70"  ></textarea>
                 <button type="submit">Enviar</button>
             </form>
 
         </section>
+        <footer>
+            <p>&copy; 2023 Nossa Empresa. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+
 
     </main>
 </body>

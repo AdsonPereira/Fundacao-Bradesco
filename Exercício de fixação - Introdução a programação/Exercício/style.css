@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.bradesco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.bradesco h2 {
+    font-size: 35px;
+}
+
+.paragrafo-experiencia {
+    background-color: rgba(255, 0, 0, 0.651);
+    width: 60%;
+    padding: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
